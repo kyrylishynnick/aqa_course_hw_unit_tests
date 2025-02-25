@@ -8,7 +8,17 @@
   Значение добавьте в массив 'forOf' 
 */
 const forOf = [];
+const numbers = [1,2,3,4,5,6,7,8,9,10];
 
+for (const number of numbers){
+    if (number %2 === 0){
+        forOf.push(number ** 2)
+    }
+    else if (number %2 !==0){
+        forOf.push(number ** 3)
+    }
+}
+console.log (forOf);
 /*
 2. Методы массивов
   - Создайте массив [1,2,3,4,5]
