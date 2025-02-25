@@ -60,9 +60,9 @@ console.log (`first === ${first}; second === ${second}, rest === ${rest}`);
   Создайте переменную mergedArray, который будет хранить значения из массивов 1 и 2
 */
 
-let firstArray = [1,2,3,4,5];
-let secondArray = [6, 7, 8, 9, 10]
-let mergedArray = [...firstArray, ...secondArray];
+const firstArray = [1,2,3,4,5];
+const secondArray = [6, 7, 8, 9, 10]
+const mergedArray = [...firstArray, ...secondArray];
 console.log (mergedArray)
 
 export { forOf, result, first, second, rest, mergedArray };
