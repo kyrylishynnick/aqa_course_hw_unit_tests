@@ -39,4 +39,12 @@ let result;
   Создайте переменную mergedArray, который будет хранить значения из массивов 1 и 2
 */
 
+<<<<<<< HEAD
+=======
+const firstArray = [1,2,3,4,5];
+const secondArray = [6, 7, 8, 9, 10]
+const mergedArray = [...firstArray, ...secondArray];
+console.log (mergedArray)
+
+>>>>>>> 848506b (added changes)
 export { forOf, result, first, second, rest, mergedArray };
